@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cute+Font&family=Honk&family=Rubik+Glitch+Pop&family=Single+Day&family=Sixtyfour&family=Workbench&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* MENU STYLIZATION */
+.menu ul{
+    list-style-type: none;
+    background-color: rgb(118, 14, 144);
+    overflow: hidden;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.menu li a:hover{
+    background-color: rgb(21, 227, 59);
+    color: black;
+}
+/* END OF MENU STYLIZATION */
+
+.main-text{
+    font-family: 'Single Day', cursive;
+    padding: 0px 20px 0px 21px;
+    text-align: center;
+}
+
+table, th, td {
+    font-family: 'Single Day', cursive;
+    border: 3px dashed rgb(13, 224, 80);
+    padding: 5px;
+    margin: 10px 0px 20px 20px;
+  }
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title2{
+    font-family: 'Workbench', sans-serif;
+    padding: 30px 0px 25px 0px;
+    text-align: center;
+}
+
+.list{
+    font-family: 'Cute Font', sans-serif;
+    padding: 0px 0px 0px 30px;
+    text-align: center;
+}
+
+.pg2img{
+    width: 400px;
+    display: block;
+    padding: 5px 5px 10px 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dashed rgb(255, 0, 234);
+}
+
+.img{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin-top: 100px;
+    border-image: linear-gradient(rgb(48, 4, 63), black, black, black, #000000) 80;
+    border-top: 50px;
+    border-style: solid;
+}
+
+body{
+    background-color: rgb(48, 4, 63);
+    color: white;
+}
+
+.caption{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-family: 'Single Day', cursive;
+}
